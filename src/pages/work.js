@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 
 
-const Work = () => {
+const WorkPage = () => {
     return (
         <Layout>
             <h1>My Work</h1>
@@ -16,4 +16,4 @@ const Work = () => {
     )
 }
 
-export default Work
+export default WorkPage
