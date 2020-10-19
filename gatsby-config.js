@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'Master Gatsby',
+    author: 'Andrew Mead'
+  },
   plugins: [
     'gatsby-plugin-sass'
   ]
