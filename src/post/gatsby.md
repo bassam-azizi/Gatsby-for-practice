@@ -5,6 +5,8 @@ date: "2019/04/04"
 
 I just launched a new bootcamp
 
+!['African girl wondering'](./img.jpg)
+
 ## Topics Covered
 
 1. Gatsby
