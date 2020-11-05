@@ -14,6 +14,7 @@ const Blog = () => {
                 edges{
                     node{
                         title
+                        slug
                         date (formatString: "MMMM Do, YYYY")
                     }
                 }
@@ -27,7 +28,7 @@ const Blog = () => {
                     console.log(edge)
                     return (
                         <li className={blogM.post}>
-                            <Link to={`/blog/${edge.node.id}`}>
+                            <Link to={`/blog/${edge.node.slug}`}>
                                 <h2>{edge.node.title}</h2>
                                 <p>{edge.node.date}</p>
                             </Link>
